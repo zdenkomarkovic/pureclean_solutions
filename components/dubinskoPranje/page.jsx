@@ -1,22 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-const Ciscenje = () => {
+const DubinskoPranje = () => {
   return (
     <div
-      id="ciscenje"
+      id="dubinskoPranje"
       className=" conntainer pb-[100px]  mx-auto px-10  border-b-2 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px]">Ciscenje</h2>
-      <div className="flex justify-between">
-        <Image
-          src="/20241120_145442.jpg"
-          width={670}
-          height={600}
-          alt="ciscenje"
-          className="rounded-3xl"
-        />
-        <div className="text-left pt-5 border-2 rounded-3xl p-5 w-[670px]">
+      <h2 className="text-[50px] text-center py-[100px]">Dubinsko Pranje</h2>
+      <div className="flex gap-20">
+        <div className="text-left pt-5">
           <p className="text-[28px]">
             Nase ciscenje obuyhvata dghdfhbh;kj svdvvogbfbubhv vfkg tcvfivu
             tvfvc cvffbg rtcbvbf cvbfv s cvc v cvdbsfdvcbvf cnvgb sgdcb
@@ -27,9 +20,16 @@ const Ciscenje = () => {
             vcbgv vfbbvbtc vf v cbfvcx v dfvfgdfpd vfdbv vbfsdbvc
           </p>
         </div>
+        <Image
+          src="/20241120_145442.jpg"
+          width={700}
+          height={600}
+          alt="ciscenje"
+          className="rounded-3xl"
+        />
       </div>
     </div>
   );
 };
 
-export default Ciscenje;
+export default DubinskoPranje;

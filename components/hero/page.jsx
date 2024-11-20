@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -8,8 +9,8 @@ const Hero = () => {
       style={{ backgroundImage: "url('/hero.jpg')", zIndex: -1 }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10">
-        <div className="relative z-20 container mx-auto px-10 ">
-          <h1 className="text-[80px] text-right text-white pt-28 font-bold">
+        <div className="relative z-20 container mx-auto px-10 pt-40 ">
+          <h1 className="text-[80px] text-right text-white pt-18 font-bold">
             Pure Clean Solutions
           </h1>
           <div className=" w-[700px] mt-20 ml-auto text-center font-bold">
