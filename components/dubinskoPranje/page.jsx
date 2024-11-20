@@ -5,9 +5,11 @@ const DubinskoPranje = () => {
   return (
     <div
       id="dubinskoPranje"
-      className=" conntainer pb-[100px]  mx-auto px-10  border-b-2 text-center"
+      className=" container pb-[100px]  mx-auto px-10  border-b-2 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px]">Dubinsko Pranje</h2>
+      <h2 className="text-[50px] text-center py-[100px] text-primary">
+        Dubinsko Pranje
+      </h2>
       <div className="flex gap-20">
         <div className="text-left pt-5">
           <p className="text-[28px]">

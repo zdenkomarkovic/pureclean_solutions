@@ -7,13 +7,13 @@ import { FaWhatsappSquare } from "react-icons/fa";
 
 const Kontakt = () => {
   return (
-    <div id="kontakt" className=" py-[80px]  text-center text-green-700">
-      <h2 className="text-[50px]">Kontakt</h2>
+    <div id="kontakt" className=" py-[80px]  text-center ">
+      <h2 className="text-[50px] text-primary">Kontakt</h2>
       <p className="text-[28px]">Pozovite nas klikom na</p>
       <div className="flex flex-col gap-3 pt-5 ">
         <a href="tel:+381631210359">
           <button className="px-5 py-2 flex gap-3 items-center rounded-full bg-green-100 mx-auto">
-            <FaPhone className="text-[35px]" /> +381 63 1210359
+            <FaPhone className="text-[30px] text-primary" /> +381 63 1210359
           </button>
         </a>
         <a href="viber://chat?number=%2B381631210359">
@@ -24,8 +24,8 @@ const Kontakt = () => {
         </a>
         <a href="https://wa.me/381631210359">
           <button className="px-5 py-2 flex gap-3 items-center rounded-full bg-green-100 mx-auto">
-            <FaWhatsappSquare className="text-[35px] rounded-xl" /> +381 63
-            1210359
+            <FaWhatsappSquare className="text-[35px] rounded-xl text-green-700" />{" "}
+            +381 63 1210359
           </button>
         </a>
         <div className="flex pt-5 gap-14 text-[40px] text-center mx-auto ">
@@ -45,7 +45,7 @@ const Kontakt = () => {
           </a>
         </div>
       </div>
-      <p className="pt-16">
+      <p className="pt-16 text-primary">
         © 2024 PureClean Solutions. Designed by ManikamDev.Solutions
       </p>
     </div>

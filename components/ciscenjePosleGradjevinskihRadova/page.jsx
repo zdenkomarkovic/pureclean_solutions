@@ -7,7 +7,7 @@ const CiscenjePosleGradjevinskihRadova = () => {
       id="ciscenjePosleGradjevinskihRadova"
       className=" conntainer pb-[100px]  mx-auto px-10  border-b-2 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px]">
+      <h2 className="text-[50px] text-center py-[100px] text-primary">
         Ciscenje Posle Gradjevinskih Radova
       </h2>
       <div className="flex gap-20">

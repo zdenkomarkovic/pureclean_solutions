@@ -30,3 +30,6 @@ html {
 .scrollToTopButton.visible {
   opacity: 1;
 }
+.primary {
+  color: #ff7000;
+}

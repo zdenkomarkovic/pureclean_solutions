@@ -14,12 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0 p-2 uppercase text-white">
+    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0 pt- uppercase text-white">
       <nav className="container mx-auto px-20 flex justify-between items-center z-50 ">
         <div className="relative flex gap-20 z-20 items-center ">
           <a href="tel:+381631210359">
-            <button className="px-5 py-2 flex gap-3 items-center border-2 rounded-full  mx-auto font-bold">
-              <FaPhone className="text-[30px] " /> +381 63 1210359
+            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full  mx-auto font-bold border-primary primary text-[20px]">
+              <FaPhone className="text-[30px] text-primary " /> +381 63 1210359
             </button>
           </a>
           <div
@@ -27,7 +27,7 @@ const Navbar = () => {
             onMouseEnter={() => setDropdownMenu(false)}
             onMouseLeave={() => setDropdownMenu(true)}
           >
-            <button className="flex items-center cursor-pointer uppercase font-bold">
+            <button className="flex items-center cursor-pointer uppercase font-bold p-5">
               Usluge{" "}
               <SlArrowDown
                 className={`ml-2 ${dropdownMenu && "-rotate-90"} font-bold `}
@@ -36,14 +36,20 @@ const Navbar = () => {
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute mt-[21px] gap-2  z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap p-3`}
+              } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap `}
             >
-              <Link href="#ciscenje">Redovno Ciscenje</Link>
-              <Link href="#generalnoCiscenje">Generalno ciscenje</Link>
-              <Link href="#ciscenjePosleGradjevinskihRadova">
+              <Link href="#ciscenje" className="p-3">
+                Redovno Ciscenje
+              </Link>
+              <Link href="#generalnoCiscenje" className="p-3">
+                Generalno ciscenje
+              </Link>
+              <Link href="#ciscenjePosleGradjevinskihRadova" className="p-3">
                 Ciscenje posle gradjevinskih radova
               </Link>
-              <Link href="#DubinskoPranje">Dubinsko pranje</Link>
+              <Link href="#dubinskoPranje" className="p-3">
+                Dubinsko pranje
+              </Link>
             </div>
           </div>
         </div>

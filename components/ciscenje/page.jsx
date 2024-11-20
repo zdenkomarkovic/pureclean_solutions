@@ -5,9 +5,11 @@ const Ciscenje = () => {
   return (
     <div
       id="ciscenje"
-      className=" conntainer pb-[100px]  mx-auto px-10  border-b-2 text-center"
+      className=" container pb-[100px]  mx-auto px-10  border-b-2 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px]">Ciscenje</h2>
+      <h2 className="text-[50px] text-center py-[100px] text-primary">
+        Ciscenje
+      </h2>
       <div className="flex justify-between">
         <Image
           src="/20241120_145442.jpg"
