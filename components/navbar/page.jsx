@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { SlArrowDown } from "react-icons/sl";
+import { FaPhone } from "react-icons/fa6";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
@@ -46,7 +47,14 @@ const Navbar = () => {
           </div>
           <Link href="#hero">O nama</Link>
         </div>
-        <Link href="#palamudjenje">Kontakt</Link>
+        <div className="flex gap-10 items-center">
+          <a href="tel:+381659742000">
+            <button className="px-5 py-2 flex gap-3 items-center rounded-full bg-green-100 mx-auto">
+              <FaPhone className="text-[35px]" /> +381 65 9742000
+            </button>
+          </a>
+          <Link href="#kontakt">Kontakt</Link>
+        </div>
       </nav>
     </header>
   );

@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div id="hero" className="bg-blue-100 py-[500px] text-[50px] text-center">
+    <div
+      id="hero"
+      className=" border border-b-2 py-[200px] text-[50px] text-center"
+    >
       Hero
     </div>
   );
