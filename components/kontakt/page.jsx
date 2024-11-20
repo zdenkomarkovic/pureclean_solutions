@@ -37,7 +37,7 @@ const Kontakt = () => {
             <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=61568880680290"
+            href="https://www.facebook.com/share/14anRHH1Uf/"
             target="_blank"
             rel="noopener noreferrer"
           >
