@@ -15,14 +15,14 @@ const Navbar = () => {
 
   return (
     <header className="bg-green-100 sticky left-0 right-0 top-0 p-2 uppercase">
-      <nav className="container mx-auto px-10 flex justify-between items-center  ">
+      <nav className="container mx-auto px-10 flex justify-between items-center z-50 ">
         <Image
           src="/pureclean_logo.jpg"
           width={45}
           height={45}
           alt="pureclean_solutions_logo"
         />
-        <div className="flex gap-20">
+        <div className="relative flex gap-20 z-20 ">
           <div
             onClick={toggleDropdownMenu}
             onMouseEnter={() => setDropdownMenu(false)}
@@ -37,7 +37,7 @@ const Navbar = () => {
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute pt-5 gap-2`}
+              } absolute pt-5 gap-2  z-[100] text-white`}
             >
               <Link href="#ciscenje">Redovno Ciscenje</Link>
               <Link href="#ciscenje">Generalno ciscenje</Link>

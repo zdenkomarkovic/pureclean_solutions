@@ -30,34 +30,3 @@ html {
 .scrollToTopButton.visible {
   opacity: 1;
 }
-.fullScreenImage {
-  background-image: url("/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
-}
-/* globals.css */
-.fullScreenWithOverlay {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url("/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.fullScreenWithOverlay::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
