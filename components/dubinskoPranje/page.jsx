@@ -5,15 +5,15 @@ const DubinskoPranje = () => {
   return (
     <div
       id="dubinskoPranje"
-      className="pb-[100px] bg-gray-200 mx-auto px-10 text-center"
+      className=" bg-gray-200 pb-[30px] px-2 lg:pb-[100px]  mx-auto lg:px-10 text-center"
     >
       <div className="container mx-auto">
-        <h2 className="text-[50px] text-center py-[80px] text-primary">
-          Dubinsko Pranje
+        <h2 className="text-[34px] lg:text-[50px] lg:py-[80px] text-center  text-primary">
+          Dubinsko pranje
         </h2>
-        <div className="flex gap-20 items-center">
-          <div className="text-left">
-            <p className="text-[28px]">
+        <div className="lg:flex gap-20 items-center">
+          <div className="lg:text-left">
+            <p className="lg:text-[28px]">
               Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog
               pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene
               iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne

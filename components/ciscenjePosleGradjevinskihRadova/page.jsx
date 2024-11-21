@@ -5,12 +5,12 @@ const CiscenjePosleGradjevinskihRadova = () => {
   return (
     <div
       id="ciscenjePosleGradjevinskihRadova"
-      className=" container pb-[100px]  mx-auto px-10 text-center"
+      className="pb-[30px] px-2 container lg:pb-[100px]  mx-auto lg:px-10 text-center"
     >
-      <h2 className="text-[50px] text-center  py-[80px] text-primary">
+      <h2 className="text-[34px] lg:text-[50px] lg:py-[80px] text-center  text-primary">
         Čišćenje posle građevinskih radova
       </h2>
-      <div className="flex gap-20 items-center">
+      <div className="lg:flex gap-20 items-center">
         <Image
           src="/gradjevinsko.jpg"
           width={750}
@@ -18,8 +18,8 @@ const CiscenjePosleGradjevinskihRadova = () => {
           alt="ciscenje"
           className="rounded-3xl"
         />
-        <div className="text-left">
-          <p className="text-[28px]">
+        <div className="lg:text-left">
+          <p className="lg:text-[28px]">
             Završili ste renoviranje ili građevinske radove? Prepustite nama
             izazov uklanjanja prašine, ostataka materijala i tvrdokornih
             nečistoća! Naš tim pažljivo čisti sve površine, uključujući podove,

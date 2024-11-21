@@ -5,12 +5,12 @@ const Ciscenje = () => {
   return (
     <div
       id="ciscenje"
-      className=" container pb-[100px]  mx-auto px-10 text-center"
+      className="pb-[30px] px-2 container lg:pb-[100px]  mx-auto lg:px-10 text-center"
     >
-      <h2 className="text-[50px] text-center py-[80px] text-primary">
+      <h2 className="text-[34px] lg:text-[50px] lg:py-[80px] text-center  text-primary">
         Čišćenje
       </h2>
-      <div className="flex gap-20 items-center">
+      <div className="lg:flex gap-20 items-center">
         <Image
           src="/ciscenje.jpg"
           width={750}
@@ -18,8 +18,8 @@ const Ciscenje = () => {
           alt="ciscenje"
           className="rounded-3xl"
         />
-        <div className="text-left">
-          <p className="text-[28px]">
+        <div className="lg:text-left">
+          <p className=" lg:text-[28px]">
             Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja!
             Bilo da je u pitanju stan, poslovni prostor ili kancelarija,
             PureClean Solutions garantuje besprekornu higijenu i pažnju prema

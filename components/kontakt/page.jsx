@@ -7,29 +7,35 @@ import { FaWhatsappSquare } from "react-icons/fa";
 
 const Kontakt = () => {
   return (
-    <div id="kontakt" className=" container pb-[40px] text-center mx-auto ">
-      <h2 className="text-[50px] text-primary py-[60px]">Kontakt</h2>
+    <div
+      id="kontakt"
+      className=" container pb-[20px] lg:pb-[40px] text-center mx-auto "
+    >
+      <h2 className="text-[34px] py-[15px] lg:text-[50px] lg:py-[60px] text-center  text-primary">
+        Kontakt
+      </h2>
       <div className="">
-        <div className="flex mx-auto justify-center gap-4">
+        <div className="flex flex-col lg:flex-row mx-auto justify-center gap-2 lg:gap-4">
           <a href="tel:+381631210359">
-            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
-              <FaPhone className="text-[30px] text-primary" /> +381 63 1210359
+            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+              <FaPhone className="text-[20px] lg:text-[30px] text-primary" />{" "}
+              +381 63 1210359
             </button>
           </a>
           <a href="viber://chat?number=%2B381631210359">
-            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
-              <FaViber className="text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
+            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+              <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
               +381 63 1210359
             </button>
           </a>
           <a href="https://wa.me/381631210359">
-            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
-              <FaWhatsappSquare className="text-[35px] rounded-lg text-green-700 bg-white" />{" "}
+            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+              <FaWhatsappSquare className="text-[26px] lg:text-[35px] rounded-lg text-green-700 bg-white" />{" "}
               +381 63 1210359
             </button>
           </a>
         </div>
-        <div className="flex pt-12 gap-20 text-[40px] justify-center ">
+        <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
           <a
             href="https://www.instagram.com/pureclean_solutions_nis"
             target="_blank"
@@ -46,7 +52,7 @@ const Kontakt = () => {
           </a>
         </div>
       </div>
-      <p className="pt-12 text-primary">
+      <p className="pt-8 lg:pt-12 text-primary">
         © 2024 PureClean Solutions. Designed by ManikamDev.Solutions
       </p>
     </div>

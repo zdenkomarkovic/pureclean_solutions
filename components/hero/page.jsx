@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative w-full h-screen bg-cover bg-center"
+      className="hidden lg:block relative w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/hero.jpg')", zIndex: -1 }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10">
