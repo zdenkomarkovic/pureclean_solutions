@@ -5,12 +5,13 @@ const CiscenjePosleGradjevinskihRadova = () => {
   return (
     <div
       id="ciscenjePosleGradjevinskihRadova"
-      className="pb-[30px] px-2 container lg:pb-[100px]  mx-auto lg:px-10 text-center"
+      className=" relative pb-[30px] px-2 container lg:pb-[100px]  mx-auto lg:px-10 text-center"
     >
-      <h2 className="text-[34px] lg:text-[50px] lg:py-[80px] text-center  text-primary">
+      <h2 className="absolute leading-tight left-0 right-0 text-[34px] py-[5px] lg:relative lg:text-[50px] lg:leading-normal lg:py-[80px] text-center  text-primary z-20">
         Čišćenje posle građevinskih radova
       </h2>
-      <div className="lg:flex gap-20 items-center">
+      <div className=" relative lg:flex gap-20 items-center">
+        <div className="absolute bg-black opacity-50 w-full h-[95px] rounded-t-3xl lg:hidden"></div>
         <Image
           src="/gradjevinsko.jpg"
           width={750}

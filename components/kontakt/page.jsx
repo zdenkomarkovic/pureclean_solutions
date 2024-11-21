@@ -15,22 +15,22 @@ const Kontakt = () => {
         Kontakt
       </h2>
       <div className="">
-        <div className="flex flex-col lg:flex-row mx-auto justify-center gap-2 lg:gap-4">
+        <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-4">
           <a href="tel:+381631210359">
-            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+            <button className="px-3 lg:px-5 py-[7px] flex gap-4 items-center border-[1px] rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
               <FaPhone className="text-[20px] lg:text-[30px] text-primary" />{" "}
               +381 63 1210359
             </button>
           </a>
           <a href="viber://chat?number=%2B381631210359">
-            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+            <button className="px-3 lg:px-5 py-[7px] flex gap-3 items-center border-[1px] rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
               <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
               +381 63 1210359
             </button>
           </a>
           <a href="https://wa.me/381631210359">
-            <button className="px-3 lg:px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
-              <FaWhatsappSquare className="text-[26px] lg:text-[35px] rounded-lg text-green-700 bg-white" />{" "}
+            <button className="px-3 lg:px-5 py-[7px] flex gap-3 items-center border-[1px] rounded-full bg-black mx-auto font-bold border-primary primary lg:text-[20px]">
+              <FaWhatsappSquare className="text-[26px] lg:text-[35px] rounded-lg text-green-700 " />{" "}
               +381 63 1210359
             </button>
           </a>
