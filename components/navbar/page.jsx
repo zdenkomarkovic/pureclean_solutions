@@ -57,7 +57,7 @@ const Navbar = () => {
           <Link href="#kontakt">Kontakt</Link>
         </div>
       </nav>
-      <nav className="hidden lg:flex container mx-auto px-20 justify-between items-center z-50 ">
+      <nav className="hidden lg:flex container mx-auto px-20 justify-between items-center z-100 ">
         <div className="relative flex gap-20 z-20 items-center ">
           <a href="tel:+381631210359">
             <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
