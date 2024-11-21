@@ -7,7 +7,7 @@ const Ciscenje = () => {
       id="ciscenje"
       className=" relative py-[25px] px-2 container lg:py-0 lg:static lg:pb-[100px]  mx-auto lg:px-10 text-center"
     >
-      <h2 className="absolute left-0 right-0 text-[34px] text-white  lg:static lg:text-[50px] lg:py-[80px] text-center  lg:text-primary z-20">
+      <h2 className="absolute left-0 right-0 text-[34px] lg:static lg:text-[50px] lg:py-[80px] text-center text-primary z-20">
         Čišćenje
       </h2>
       <div className=" relative lg:static lg:flex gap-20 items-center">
