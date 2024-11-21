@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { IoIosArrowUp } from "react-icons/io";
 
 const ButtonToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,10 +30,10 @@ const ButtonToTop = () => {
     <button
       className={` scrollToTopButton ${
         isVisible ? "visible" : ""
-      }  fixed bottom-0 right-0 bg-black rounded-s-full px-4 py-2 mr-6 mb-[71px] z-50 items-center text-xs flex gap-2 text-white `}
+      }  fixed bottom-0 right-0 p-1 mr-6 mb-[71px] bg-black z-50 font-bold text-white `}
       onClick={scrollToTop}
     >
-      penji se gore
+      <IoIosArrowUp className=" text-[35px] text-primary" />
     </button>
   );
 };

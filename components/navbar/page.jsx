@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="container mx-auto px-20 flex justify-between items-center z-50 ">
         <div className="relative flex gap-20 z-20 items-center ">
           <a href="tel:+381631210359">
-            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full  mx-auto font-bold border-primary primary text-[20px]">
+            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
               <FaPhone className="text-[30px] text-primary " /> +381 63 1210359
             </button>
           </a>
@@ -36,16 +36,16 @@ const Navbar = () => {
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap `}
+              } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap  rounded-b-xl`}
             >
               <Link href="#ciscenje" className="p-3">
-                Redovno Ciscenje
+                Redovno čišćenje
               </Link>
               <Link href="#generalnoCiscenje" className="p-3">
-                Generalno ciscenje
+                Generalno čišćenje
               </Link>
               <Link href="#ciscenjePosleGradjevinskihRadova" className="p-3">
-                Ciscenje posle gradjevinskih radova
+                čišćenje posle građevinskih radova
               </Link>
               <Link href="#dubinskoPranje" className="p-3">
                 Dubinsko pranje

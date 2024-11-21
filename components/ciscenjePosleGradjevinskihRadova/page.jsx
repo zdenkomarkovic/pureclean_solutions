@@ -5,28 +5,27 @@ const CiscenjePosleGradjevinskihRadova = () => {
   return (
     <div
       id="ciscenjePosleGradjevinskihRadova"
-      className=" conntainer pb-[100px]  mx-auto px-10  border-b-2 text-center"
+      className=" container pb-[100px]  mx-auto px-10 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px] text-primary">
-        Ciscenje Posle Gradjevinskih Radova
+      <h2 className="text-[50px] text-center  py-[80px] text-primary">
+        Čišćenje posle građevinskih radova
       </h2>
-      <div className="flex gap-20">
+      <div className="flex gap-20 items-center">
         <Image
-          src="/20241120_145442.jpg"
-          width={700}
+          src="/gradjevinsko.jpg"
+          width={750}
           height={600}
           alt="ciscenje"
           className="rounded-3xl"
         />
-        <div className="text-left pt-5">
+        <div className="text-left">
           <p className="text-[28px]">
-            Nase ciscenje obuyhvata dghdfhbh;kj svdvvogbfbubhv vfkg tcvfivu
-            tvfvc cvffbg rtcbvbf cvbfv s cvc v cvdbsfdvcbvf cnvgb sgdcb
-          </p>
-          <p className="text-[28px] pt-8">
-            Nase ciscenje obuyhvata dghdfhbh;kj svdvvogbfbubhv vfkg tcvfivu
-            tvfvc cvffbg rtcbvbf cvbfv s cvc v cvdbsfdvcbvf cnvgb sgdcb rtvbffbv
-            vcbgv vfbbvbtc vf v cbfvcx v dfvfgdfpd vfdbv vbfsdbvc
+            Završili ste renoviranje ili građevinske radove? Prepustite nama
+            izazov uklanjanja prašine, ostataka materijala i tvrdokornih
+            nečistoća! Naš tim pažljivo čisti sve površine, uključujući podove,
+            stolariju, prozore i sanitarije, kako bismo vaš prostor doveli u
+            savršeno stanje. Sa PureClean Solutions, vaš prostor će biti spreman
+            za upotrebu brže nego što očekujete!
           </p>
         </div>
       </div>

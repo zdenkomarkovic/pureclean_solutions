@@ -5,30 +5,31 @@ const GeneralnoCiscenje = () => {
   return (
     <div
       id="generalnoCiscenje"
-      className=" container pb-[100px]  mx-auto px-10  border-b-2 text-center"
+      className="  pb-[100px] bg-gray-200 mx-auto px-10 text-center"
     >
-      <h2 className="text-[50px] text-center py-[100px] text-primary">
-        Generalno Ciscenje
-      </h2>
-      <div className="flex gap-20">
-        <div className="text-left pt-5">
-          <p className="text-[28px]">
-            Nase ciscenje obuyhvata dghdfhbh;kj svdvvogbfbubhv vfkg tcvfivu
-            tvfvc cvffbg rtcbvbf cvbfv s cvc v cvdbsfdvcbvf cnvgb sgdcb
-          </p>
-          <p className="text-[28px] pt-8">
-            Nase ciscenje obuyhvata dghdfhbh;kj svdvvogbfbubhv vfkg tcvfivu
-            tvfvc cvffbg rtcbvbf cvbfv s cvc v cvdbsfdvcbvf cnvgb sgdcb rtvbffbv
-            vcbgv vfbbvbtc vf v cbfvcx v dfvfgdfpd vfdbv vbfsdbvc
-          </p>
+      <div className="container mx-auto">
+        <h2 className="text-[50px] text-center py-[80px] text-primary">
+          Generalno čišćenje
+        </h2>
+        <div className="flex gap-20 items-center">
+          <div className="text-left">
+            <p className="text-[28px]">
+              Generalno čišćenje podrazumeva temeljnu brigu o svakom kutku vašeg
+              prostora. Naš tim čisti sve površine, uključujući podove, prozore,
+              kuhinjske elemente, kupatila, i teško dostupna mesta. Detaljno
+              uklanjamo prašinu, mrlje i nečistoće kako bismo osigurali da vaš
+              prostor blista i bude u potpunosti osvežen. Prepustite nam posao,
+              a mi ćemo se pobrinuti za savršenu čistoću!
+            </p>
+          </div>
+          <Image
+            src="/generalnociscenje.jpg"
+            width={750}
+            height={600}
+            alt="generalno ciscenje"
+            className="rounded-3xl"
+          />
         </div>
-        <Image
-          src="/20241120_145442.jpg"
-          width={700}
-          height={600}
-          alt="ciscenje"
-          className="rounded-3xl"
-        />
       </div>
     </div>
   );
