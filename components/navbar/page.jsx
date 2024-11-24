@@ -5,58 +5,46 @@ import React, { useState } from "react";
 import { SlArrowDown } from "react-icons/sl";
 import { FaPhone } from "react-icons/fa6";
 import { pageData } from "../../constants/index.js";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   const toggleDropdownMenu = () => {
     setDropdownMenu((prev) => !prev);
   };
 
   return (
-    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0 pt- uppercase text-white z-50">
-      <nav className="hidden lg-flex container mx-auto px-20  justify-between items-center z-50 ">
-        <div className="relative flex gap-20 z-50 items-center ">
-          <a href="tel:+381631210359">
-            <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
-              <FaPhone className="text-[30px] text-primary " /> +381 63 1210359
-            </button>
-          </a>
-          <div
-            onClick={toggleDropdownMenu}
-            onMouseEnter={() => setDropdownMenu(false)}
-            onMouseLeave={() => setDropdownMenu(true)}
-          >
-            <button className="flex items-center cursor-pointer uppercase font-bold p-5">
-              Usluge{" "}
-              <SlArrowDown
-                className={`ml-2 ${dropdownMenu && "-rotate-90"} font-bold `}
-              />
-            </button>
+    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0  uppercase text-white z-50">
+      <nav className="lg:hidden mx-auto px-5 py-2 justify-between items-center z-100 ">
+        <div className="relative flex justify-between z-20 items-center ">
+          <div onClick={toggleDropdownMenu}>
+            {toggleMenu ? (
+              <AiOutlineClose className="text-white w-[25px] h-auto" />
+            ) : (
+              <RxHamburgerMenu className="text-white w-[25px] h-auto" />
+            )}
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap  rounded-b-xl`}
+              } absolute mt-[10px]  z-[100] text-white w-full font-bold bg-black bg-opacity-70 text-nowrap  rounded-b-xl`}
             >
-              <Link href="/ciscenje" className="p-3">
-                Redovno čišćenje
-              </Link>
-              <Link href="#generalnoCiscenje" className="p-3">
-                Generalno čišćenje
-              </Link>
-              <Link href="#ciscenjePosleGradjevinskihRadova" className="p-3">
-                čišćenje posle građevinskih radova
-              </Link>
-              <Link href="#dubinskoPranje" className="p-3">
-                Dubinsko pranje
-              </Link>
+              {pageData.map((page, i) => {
+                return (
+                  <Link key={i} href={page.route} className="px-5 py-1 ">
+                    {page.title}
+                  </Link>
+                );
+              })}
             </div>
           </div>
-        </div>
-        <Link href={"/ciscenje"} className="text-white">
-          ciscenje
-        </Link>
-        <div className="flex gap-10 items-center font-bold">
+          <a href="tel:+381631210359">
+            <button className="px-[8px] py-[2px] flex gap-1 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[15px]">
+              <FaPhone className="text-[20px] text-primary " /> +381 63 1210359
+            </button>
+          </a>
           <Link href="#kontakt">Kontakt</Link>
         </div>
       </nav>
