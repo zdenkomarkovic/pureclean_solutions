@@ -14,8 +14,8 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in": "fade-in 1.8s ease-in forwards 1.8s",
-        "fade-in2": "fade-in 2.3s ease-in forwards 2.3s",
+        "fade-in": "fade-in 1.7s ease-in forwards 1.7s",
+        "fade-in2": "fade-in 2s ease-in forwards 2s",
       },
       transitionDuration: {
         1500: "1500ms",
