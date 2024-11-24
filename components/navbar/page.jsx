@@ -77,11 +77,14 @@ const Navbar = () => {
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap  rounded-b-xl`}
+              } absolute   z-[100] text-white font-bold bg-black bg-opacity-60 text-nowrap  rounded-b-xl`}
             >
+              <Link href={"/"} className="px-5 py-1 ">
+                Početna
+              </Link>
               {pageData.map((page, i) => {
                 return (
-                  <Link key={i} href={page.route} className="p-3">
+                  <Link key={i} href={page.route} className="px-5 py-2 ">
                     {page.title}
                   </Link>
                 );
@@ -90,7 +93,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex gap-10 items-center font-bold">
-          <Link href="#kontakt">Kontakt</Link>
+          <Link href="/#kontakt">Kontakt</Link>
         </div>
       </nav>
     </header>

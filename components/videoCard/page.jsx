@@ -9,6 +9,7 @@ const VideoCard = () => {
           type="video/mp4"
           autoPlay
           loop
+          muted
           className="w-full"
         />
       </section>
