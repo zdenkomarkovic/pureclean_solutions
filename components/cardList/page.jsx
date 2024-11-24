@@ -13,7 +13,8 @@ const CardsList = () => {
             title={card.title}
             bgColor={index % 2 !== 0 ? "bg-gray-200 lg:bg-inherit " : ""}
             bgHeight={
-              card.title === "Čišćenje posle građevinskih radova"
+              card.title === "Čišćenje posle građevinskih radova" ||
+              card.title === "Dubinsko pranje automobila"
                 ? "h-[115px] lg:h-[150px]"
                 : "h-[65px] lg:h-[90px]"
             }
