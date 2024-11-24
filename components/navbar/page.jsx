@@ -90,18 +90,6 @@ const Navbar = () => {
                   </Link>
                 );
               })}
-              <Link href="/ciscenje" className="p-3">
-                Redovno čišćenje
-              </Link>
-              <Link href="#generalnoCiscenje" className="p-3">
-                Generalno čišćenje
-              </Link>
-              <Link href="#ciscenjePosleGradjevinskihRadova" className="p-3">
-                čišćenje posle građevinskih radova
-              </Link>
-              <Link href="#dubinskoPranje" className="p-3">
-                Dubinsko pranje
-              </Link>
             </div>
           </div>
         </div>

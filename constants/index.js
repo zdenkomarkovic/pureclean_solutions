@@ -48,4 +48,22 @@ export const pageData = [
     description:
       "Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne tehnike i sredstva koja su sigurna za vaš dom i porodicu. Sa PureClean Solutions, svaki kutak vašeg prostora dobija novu svežinu i higijensku čistoću!",
   },
+  {
+    image: "/ciscenje.jpg",
+    title: "Dubinsko pranje automobila",
+    route: "/dubinskoPranjeAutomobila",
+    description:
+      "Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja! Bilo da je u pitanju stan, poslovni prostor ili kancelarija, PureClean Solutions garantuje besprekornu higijenu i pažnju prema svakom detalju. Naš tim koristi kvalitetna sredstva i efikasne metode kako bi obezbedio čistoću koja traje. Prepustite brigu nama i uživajte u savršenoj svežini vašeg prostora!",
+  },
+  {
+    image: "/ciscenje.jpg",
+    title: "Čišćenje",
+    route: "/ciscenje",
+    description:
+      "Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja! Bilo da je u pitanju stan, poslovni prostor ili kancelarija, PureClean Solutions garantuje besprekornu higijenu i pažnju prema svakom detalju. Naš tim koristi kvalitetna sredstva i efikasne metode kako bi obezbedio čistoću koja traje. Prepustite brigu nama i uživajte u savršenoj svežini vašeg prostora!",
+  },
 ];
+
+export const getPageData = (title) => {
+  return pageData.find((page) => page.title === title);
+};
