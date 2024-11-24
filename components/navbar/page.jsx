@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { SlArrowDown } from "react-icons/sl";
 import { FaPhone } from "react-icons/fa6";
-import { pageData } from "@/constants";
+import { pageData } from "../../constants/index.js";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
