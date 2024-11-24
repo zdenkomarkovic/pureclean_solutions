@@ -10,27 +10,29 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
-  const [toggleMenu, setToggleMenu] = useState(false);
 
   const toggleDropdownMenu = () => {
     setDropdownMenu((prev) => !prev);
   };
 
   return (
-    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0  uppercase text-white z-50">
-      <nav className="lg:hidden mx-auto px-5 py-2 justify-between items-center z-100 ">
+    <header className="bg-black bg-opacity-50 fixed left-0 right-0 top-0  uppercase text-white z-50">
+      <nav className="lg:hidden mx-auto py-2 justify-between items-center z-100 ">
         <div className="relative flex justify-between z-20 items-center ">
           <div onClick={toggleDropdownMenu}>
-            {toggleMenu ? (
-              <AiOutlineClose className="text-white w-[25px] h-auto" />
+            {dropdownMenu ? (
+              <RxHamburgerMenu className="text-white w-[50px] h-auto pl-5" />
             ) : (
-              <RxHamburgerMenu className="text-white w-[25px] h-auto" />
+              <AiOutlineClose className="text-white w-[50px] h-auto pl-5" />
             )}
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute mt-[10px]  z-[100] text-white w-full font-bold bg-black bg-opacity-70 text-nowrap  rounded-b-xl`}
+              } absolute mt-[8px]  z-[100] text-white w-full font-bold bg-black bg-opacity-50 text-nowrap  rounded-b-xl`}
             >
+              <Link href={"/"} className="px-5 py-1 ">
+                Početna
+              </Link>
               {pageData.map((page, i) => {
                 return (
                   <Link key={i} href={page.route} className="px-5 py-1 ">
@@ -45,7 +47,13 @@ const Navbar = () => {
               <FaPhone className="text-[20px] text-primary " /> +381 63 1210359
             </button>
           </a>
-          <Link href="#kontakt">Kontakt</Link>
+          <Link
+            href="/#kontakt"
+            className="pr-5"
+            onClick={() => setDropdownMenu(true)}
+          >
+            Kontakt
+          </Link>
         </div>
       </nav>
       <nav className="hidden lg:flex container mx-auto px-20 justify-between items-center z-100 ">

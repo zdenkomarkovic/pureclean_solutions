@@ -1,3 +1,5 @@
+"use client";
+
 import CardsList from "../../../components/cardList/page";
 import Hero from "../../../components/hero/page";
 import Kontakt from "../../../components/kontakt/page";

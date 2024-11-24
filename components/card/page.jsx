@@ -4,7 +4,7 @@ import React from "react";
 const Card = ({ title, image, description }) => {
   return (
     <div className="px-2 container lg:pb-[50px]  mx-auto lg:px-10 text-center">
-      <h2 className="text-[34px] lg:text-[50px] py-[30px] lg:pt-[90px] text-center text-primary">
+      <h2 className="text-[34px] lg:text-[50px] py-[30px] pt-[60px] lg:pt-[90px] text-center text-primary">
         {title}
       </h2>
       <div className=" lg:flex gap-20 items-center">
