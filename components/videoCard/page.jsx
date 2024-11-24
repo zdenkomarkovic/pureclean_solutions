@@ -5,8 +5,8 @@ const VideoCard = () => {
     <div>
       <section>
         <video
-          src="/vid1.mov"
-          type="video/mov"
+          src="/vid1.mp4"
+          type="video/mp4"
           autoPlay
           loop
           className="w-full"
