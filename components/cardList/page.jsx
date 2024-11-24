@@ -1,4 +1,4 @@
-import { pageData } from "@/constants";
+import { pageData } from "../../constants/index.js";
 import React from "react";
 import AnimationCard from "../animationCard/page";
 
