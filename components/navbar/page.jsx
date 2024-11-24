@@ -28,7 +28,7 @@ const Navbar = () => {
             <div
               className={`flex flex-col ${
                 dropdownMenu && "hidden"
-              } absolute mt-[8px]  z-[100] text-white w-full font-bold bg-black bg-opacity-50 text-nowrap  rounded-b-xl`}
+              } absolute mt-[8px]  z-[100] text-white w-full font-bold bg-black bg-opacity-70 text-nowrap  rounded-b-xl`}
             >
               <Link href={"/"} className="px-5 py-1 ">
                 Početna
