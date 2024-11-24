@@ -1,5 +1,4 @@
-import Card from "@/components/card/page";
-import { pageData } from "@/constants";
+import Card from "../../../components/card/page";
 import React from "react";
 
 const Ciscenje = () => {
