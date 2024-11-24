@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        1500: "1500ms", // Dodajemo mogućnost za duration-2000
+      },
       colors: {
         primary: "#ff7000",
         background: "var(--background)",

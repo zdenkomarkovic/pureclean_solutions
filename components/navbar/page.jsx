@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { SlArrowDown } from "react-icons/sl";
 import { FaPhone } from "react-icons/fa6";
+import { pageData } from "@/app/constants";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
@@ -14,9 +14,9 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0 pt- uppercase text-white">
+    <header className="bg-black bg-opacity-40 fixed left-0 right-0 top-0 pt- uppercase text-white z-50">
       <nav className="hidden lg-flex container mx-auto px-20  justify-between items-center z-50 ">
-        <div className="relative flex gap-20 z-20 items-center ">
+        <div className="relative flex gap-20 z-50 items-center ">
           <a href="tel:+381631210359">
             <button className="px-5 py-1 flex gap-3 items-center border-2 rounded-full bg-black mx-auto font-bold border-primary primary text-[20px]">
               <FaPhone className="text-[30px] text-primary " /> +381 63 1210359
@@ -38,7 +38,7 @@ const Navbar = () => {
                 dropdownMenu && "hidden"
               } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap  rounded-b-xl`}
             >
-              <Link href="#ciscenje" className="p-3">
+              <Link href="/ciscenje" className="p-3">
                 Redovno čišćenje
               </Link>
               <Link href="#generalnoCiscenje" className="p-3">
@@ -53,6 +53,9 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <Link href={"/ciscenje"} className="text-white">
+          ciscenje
+        </Link>
         <div className="flex gap-10 items-center font-bold">
           <Link href="#kontakt">Kontakt</Link>
         </div>
@@ -80,7 +83,14 @@ const Navbar = () => {
                 dropdownMenu && "hidden"
               } absolute   z-[100] text-white font-bold bg-black bg-opacity-40 text-nowrap  rounded-b-xl`}
             >
-              <Link href="#ciscenje" className="p-3">
+              {pageData.map((page, i) => {
+                return (
+                  <Link key={i} href={page.route} className="p-3">
+                    {page.title}
+                  </Link>
+                );
+              })}
+              <Link href="/ciscenje" className="p-3">
                 Redovno čišćenje
               </Link>
               <Link href="#generalnoCiscenje" className="p-3">
