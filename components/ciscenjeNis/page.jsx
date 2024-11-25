@@ -15,7 +15,7 @@ const CiscenjeNis = () => {
         <h2 className="text-[37px] py-[25px] lg:text-[78px] lg:py-[60px] text-center  text-primary">
           Čišćenje Niš
         </h2>
-        <p className="text-[20px] mb-20 text-white  lg:text-[30px] opacity-0 animate-fade-in2">
+        <p className="text-[20px] mb-20 text-white  lg:text-[30px]">
           Pozovite i zakazite. Od nas mozete da ocekujete profesionalnu uslugu,
           posle koje cete biti zadovoljni stanjem vaseg prostora
         </p>
