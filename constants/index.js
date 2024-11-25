@@ -1,10 +1,10 @@
 export const pageData = [
   {
     image: "/ciscenje.jpg",
-    title: "Čišćenje",
-    route: "/ciscenje",
+    title: "Redovno čišćenje",
+    route: "/redovnoCiscenje",
     description:
-      "Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja! Bilo da je u pitanju stan, poslovni prostor ili kancelarija, PureClean Solutions garantuje besprekornu higijenu i pažnju prema svakom detalju. Naš tim koristi kvalitetna sredstva i efikasne metode kako bi obezbedio čistoću koja traje. Prepustite brigu nama i uživajte u savršenoj svežini vašeg prostora!",
+      "Redovno održavanje prostora ključ je za urednost i higijenu u svakodnevnom životu. Naša usluga redovnog čišćenja obuhvata sve što je potrebno za čist i svež prostor, bilo da se radi o stanovima, kancelarijama ili poslovnim objektima. Fleksibilno se prilagođavamo vašim potrebama kako bismo osigurali besprekoran izgled vašeg prostora u svakom trenutku.",
   },
   {
     image: "/generalnociscenje.jpg",
@@ -20,47 +20,41 @@ export const pageData = [
     description:
       "Završili ste renoviranje ili građevinske radove? Prepustite nama izazov uklanjanja prašine, ostataka materijala i tvrdokornih nečistoća! Naš tim pažljivo čisti sve površine, uključujući podove, stolariju, prozore i sanitarije, kako bismo vaš prostor doveli u savršeno stanje. Sa PureClean Solutions, vaš prostor će biti spreman za upotrebu brže nego što očekujete!",
   },
+
+  {
+    image: "/generalnociscenje.jpg",
+    title: "Čišćenje stambenih zgrada",
+    route: "/ciscenjeStambenihZgrada",
+    description:
+      "Profesionalno održavanje stambenih zgrada podrazumeva redovno čišćenje zajedničkih prostora, uključujući hodnike, stepeništa, liftove i ulaze. Naša usluga obezbeđuje besprekoran izgled i higijenu, koristeći proverene metode i kvalitetna sredstva za čišćenje. Čistoća zgrade doprinosi prijatnijem i zdravijem životu svih stanara.",
+  },
+  {
+    image: "/pranjeProzoraIzloga.jpg",
+    title: "Pranje prozora i izloga",
+    route: "/pranjeProzoraIzloga",
+    description:
+      "Kristalno čisti prozori i izlozi ostavljaju snažan utisak i osvetljavaju svaki prostor. Naša usluga pranja prozora i izloga garantuje sjaj bez tragova, koristeći profesionalnu opremu i sredstva koja su bezbedna i efikasna. Bilo da se radi o stambenim ili poslovnim objektima, vaši prozori će zablistati kao nikad pre!",
+  },
   {
     image: "/dubinsko.jpg",
-    title: "Dubinsko pranje",
-    route: "dubinskoPranje",
+    title: "Dubinsko pranje nameštaja",
+    route: "dubinskoPranjeNamestaja",
     description:
-      "Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne tehnike i sredstva koja su sigurna za vaš dom i porodicu. Sa PureClean Solutions, svaki kutak vašeg prostora dobija novu svežinu i higijensku čistoću!",
+      "Oživite vaš nameštaj uz našu uslugu dubinskog pranja! Efikasno uklanjamo prljavštinu, fleke i alergene iz dubokih slojeva tkanine, koristeći profesionalnu opremu i bezbedne proizvode. Vaše garniture, fotelje i stolice ne samo da će izgledati kao nove, već će biti i higijenski čiste, spremne za uživanje!",
   },
   {
-    image: "/generalnociscenje.jpg",
-    title: "Restauracija",
-    route: "/ciscenje",
+    image: "/dubinskoPranjeTepiha.jpg",
+    title: "Dubinsko pranje tepiha",
+    route: "/dubinskoPranjeTepiha",
     description:
-      "Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne tehnike i sredstva koja su sigurna za vaš dom i porodicu. Sa PureClean Solutions, svaki kutak vašeg prostora dobija novu svežinu i higijensku čistoću!",
+      "Vaši tepisi zaslužuju pažnju koja će im vratiti sjaj i svežinu! Naša usluga dubinskog pranja tepiha efikasno uklanja prašinu, fleke i neprijatne mirise, koristeći profesionalne mašine i visokokvalitetne preparate. Rezultat je temeljno očišćen i osvežen tepih, bez oštećenja, koji će uneti čistoću i udobnost u vaš dom ili poslovni prostor.",
   },
   {
-    image: "/generalnociscenje.jpg",
-    title: "Restauracija",
-    route: "/ciscenje",
-    description:
-      "Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne tehnike i sredstva koja su sigurna za vaš dom i porodicu. Sa PureClean Solutions, svaki kutak vašeg prostora dobija novu svežinu i higijensku čistoću!",
-  },
-  {
-    image: "/generalnociscenje.jpg",
-    title: "Cenovnik",
-    route: "/ciscenje",
-    description:
-      "Oživite nameštaj i osvežite svoj prostor uz naše usluge dubinskog pranja! Uklanjamo duboko ukorenjenu prljavštinu, mrlje i alergene iz tapaciranog nameštaja, tepiha i dušeka. Koristimo profesionalne tehnike i sredstva koja su sigurna za vaš dom i porodicu. Sa PureClean Solutions, svaki kutak vašeg prostora dobija novu svežinu i higijensku čistoću!",
-  },
-  {
-    image: "/ciscenje.jpg",
+    image: "/dubinskoPranjeAutomobila.jpg",
     title: "Dubinsko pranje automobila",
     route: "/dubinskoPranjeAutomobila",
     description:
-      "Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja! Bilo da je u pitanju stan, poslovni prostor ili kancelarija, PureClean Solutions garantuje besprekornu higijenu i pažnju prema svakom detalju. Naš tim koristi kvalitetna sredstva i efikasne metode kako bi obezbedio čistoću koja traje. Prepustite brigu nama i uživajte u savršenoj svežini vašeg prostora!",
-  },
-  {
-    image: "/ciscenje.jpg",
-    title: "Čišćenje",
-    route: "/ciscenje",
-    description:
-      "Učinite vaš prostor blistavim uz usluge profesionalnog čišćenja! Bilo da je u pitanju stan, poslovni prostor ili kancelarija, PureClean Solutions garantuje besprekornu higijenu i pažnju prema svakom detalju. Naš tim koristi kvalitetna sredstva i efikasne metode kako bi obezbedio čistoću koja traje. Prepustite brigu nama i uživajte u savršenoj svežini vašeg prostora!",
+      "Vašem automobilu je potrebna nega iznutra, a ne samo spolja! Naša usluga dubinskog pranja automobila obuhvata detaljno čišćenje sedišta, tepiha i unutrašnjih površina, uz uklanjanje prljavštine, fleka i neprijatnih mirisa. Koristimo savremenu opremu i sredstva koja su sigurna za vaš automobil, ostavljajući enterijer svežim, čistim i poput novog.",
   },
 ];
 

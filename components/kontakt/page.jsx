@@ -23,7 +23,7 @@ const Kontakt = () => {
                 +381 63 1210359
               </button>
             </a>
-            <a href="viber://call?number=%2B381631210359">
+            <a href="viber://chat?number=%2B381631210359">
               <button className="px-8 py-[7px] flex gap-5 items-center border-b-[1px] mx-auto  border-primary text-white text-[20px]">
                 <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
                 +381 63 1210359

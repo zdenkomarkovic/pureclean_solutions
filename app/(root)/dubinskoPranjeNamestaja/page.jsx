@@ -2,8 +2,8 @@ import Card from "../../../components/card/page";
 import React from "react";
 import { getPageData } from "../../../constants";
 
-const Ciscenje = () => {
-  const page = getPageData("Čišćenje");
+const DubinskoPranjeNamestaja = () => {
+  const page = getPageData("Dubinsko pranje nameštaja");
   return (
     <Card
       title={page.title}
@@ -13,4 +13,4 @@ const Ciscenje = () => {
   );
 };
 
-export default Ciscenje;
+export default DubinskoPranjeNamestaja;
