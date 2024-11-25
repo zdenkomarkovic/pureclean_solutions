@@ -4,6 +4,7 @@ import Kontakt from "../../../components/kontakt/page";
 import ButtonToTop from "../../../components/buttonToTop/page";
 import VideoCard from "../../../components/videoCard/page";
 import Head from "next/head";
+import CiscenjeNis from "../../../components/ciscenjeNis/page";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
       <div>
         <Hero />
         <ButtonToTop />
+        <CiscenjeNis />
         <CardsList />
         <VideoCard />
         <Kontakt />
