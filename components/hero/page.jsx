@@ -38,7 +38,7 @@ const Hero = () => {
           <TypingEffect text="Pure Clean Solutions" speed={50} />
           <div className="w-[55%] lg:w-[700px] mt-10 lg:mt-20 ml-auto text-center font-bold">
             <h3 className="text-[17px] text-white lg:text-[40px] opacity-0 animate-fade-in">
-              Duboko posveceni svom poslu, izuzetno odgovorni.
+              Čišćenje Niš
             </h3>
             <p className="text-[14px] mt-3 text-white  lg:text-[30px] opacity-0 animate-fade-in2">
               Specijalizovani za ciscenje poslovnih objekata, kancelarija i
