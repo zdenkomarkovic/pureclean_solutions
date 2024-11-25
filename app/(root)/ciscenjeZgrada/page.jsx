@@ -2,7 +2,7 @@ import Card from "../../../components/card/page";
 import React from "react";
 import { getPageData } from "../../../constants";
 
-const ciscenjeStambenihZgrada = () => {
+const ciscenjeZgrada = () => {
   const page = getPageData("Čišćenje stambenih zgrada");
   return (
     <Card
@@ -13,4 +13,4 @@ const ciscenjeStambenihZgrada = () => {
   );
 };
 
-export default ciscenjeStambenihZgrada;
+export default ciscenjeZgrada;

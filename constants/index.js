@@ -22,9 +22,9 @@ export const pageData = [
   },
 
   {
-    image: "/generalnociscenje.jpg",
+    image: "/ciscenjeZgrada.jpg",
     title: "Čišćenje stambenih zgrada",
-    route: "/ciscenjeStambenihZgrada",
+    route: "/ciscenjeZgrada",
     description:
       "Profesionalno održavanje stambenih zgrada podrazumeva redovno čišćenje zajedničkih prostora, uključujući hodnike, stepeništa, liftove i ulaze. Naša usluga obezbeđuje besprekoran izgled i higijenu, koristeći proverene metode i kvalitetna sredstva za čišćenje. Čistoća zgrade doprinosi prijatnijem i zdravijem životu svih stanara.",
   },
