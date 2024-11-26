@@ -14,7 +14,7 @@ const CiscenjeNis = () => {
         </h2>
         <p className="text-[20px] mb-20 text-white  lg:text-[30px]">
           Pozovite i zakazite. Od nas mozete da ocekujete profesionalnu uslugu,
-          posle koje cete biti zadovoljni stanjem vaseg prostora
+          posle koje cete biti zadovoljni stanjem vašeg prostora
         </p>
         <div className="">
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">

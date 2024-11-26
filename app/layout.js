@@ -17,7 +17,7 @@ export const metadata = {
   description:
     "Ciscenje prepustite nama, jer smo specijalisti za sve vrste ciscenja. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor ili sta god je vama potrebno",
   icons: {
-    icon: "/pureclean_logo.jpg",
+    icon: "/pureclean_logo.png",
   },
 };
 
