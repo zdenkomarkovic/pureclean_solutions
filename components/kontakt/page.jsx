@@ -54,7 +54,8 @@ const Kontakt = () => {
           </div>
         </div>
         <p className="pt-8 lg:pt-12 text-primary">
-          © 2024 PureClean Solutions. Designed by ManikamDev.Solutions
+          © 2024 PureClean Solutions. Designed by{" "}
+          <span className="font-bold"> Manikam.Dev.Solutions</span>
         </p>
       </div>
     </div>
