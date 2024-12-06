@@ -20,7 +20,7 @@ const TypingEffect = ({ text, speed = 10 }) => {
     <h1 className="relative flex flex-col pl-[150px] lg:pl-0 lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold transition-opacity duration-700">
       {displayedText}
       <span className=" absolute left-0 top-[150px] animate-colorChange text-center text-[30px] lg:text-[80px]">
-        Čišćenje prepustite nama, jer smo mi profesionalci
+        Čišćenje prepustite nama, jer smo mi experti u svom poslu
       </span>
     </h1>
   );
