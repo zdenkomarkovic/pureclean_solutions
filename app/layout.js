@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Pure Clean Solutions",
+  title: "Pure Clean Solutions - Čišćenje Niš ",
   description:
     "Ciscenje prepustite nama. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor.",
   icons: {
