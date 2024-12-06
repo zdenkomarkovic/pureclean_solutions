@@ -17,10 +17,10 @@ const TypingEffect = ({ text, speed = 10 }) => {
   }, [index, text, speed]);
 
   return (
-    <h1 className="relative flex flex-col w-[55%] lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold transition-opacity duration-700">
+    <h1 className="relative flex flex-col pl-[150px] lg:pl-0 lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold transition-opacity duration-700">
       {displayedText}
-      <span className=" absolute top-[150px] text-white">
-        Čišćenje prepustite nama, jer smo mi experti za čišćenje
+      <span className=" absolute left-0 top-[150px] animate-colorChange text-center text-[28px] lg:text-[80px]">
+        Čišćenje prepustite nama, jer smo mi profesionalci
       </span>
     </h1>
   );
@@ -39,7 +39,7 @@ const Hero = () => {
             Pure Clean Solutions
           </h1> */}
           <TypingEffect text="Pure Clean Solutions" speed={50} />
-          <div className="w-[55%] lg:w-[700px] mt-10 lg:mt-[300px] ml-auto text-center font-bold">
+          <div className="w-[55%] lg:w-[700px] mt-[200px] lg:mt-[300px] ml-auto text-center font-bold">
             <h3 className="text-[17px] text-white lg:text-[40px] opacity-0 animate-fade-in">
               Čišćenje Niš
             </h3>
