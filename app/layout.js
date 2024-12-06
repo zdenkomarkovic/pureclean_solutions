@@ -15,7 +15,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Pure Clean Solutions",
   description:
-    "Ciscenje prepustite nama, jer smo specijalisti za sve vrste ciscenja. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor ili sta god je vama potrebno",
+    "Ciscenje prepustite nama. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor.",
   icons: {
     icon: "/pureclean_logo.png",
   },
