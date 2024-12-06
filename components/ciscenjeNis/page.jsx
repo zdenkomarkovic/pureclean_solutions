@@ -13,8 +13,17 @@ const CiscenjeNis = () => {
           Čišćenje Niš
         </h2>
         <p className="text-[20px] mb-20 text-white  lg:text-[30px]">
-          Pozovite i zakazite. Od nas mozete da ocekujete profesionalnu uslugu,
-          posle koje cete biti zadovoljni stanjem vašeg prostora
+          Pozovite{" "}
+          <span className="text-primary font-bold">Pure Clean Solutions</span> i
+          zakazite profesionalno čišćenje prostora već danas! Naša agencija za
+          čišćenje nudi usluge koje su prilagođene vašim potrebama, bilo da se
+          radi o stambenim ili poslovnim prostorima. Uz pažnju prema detaljima i
+          korišćenje visokokvalitetnih sredstava za čišćenje, garantujemo
+          savršenu čistoću i osveženje vašeg prostora. Prepustite brigu o
+          higijeni nama, a vi uživajte u savršeno čistom i urednom okruženju.
+          Kontaktirajte nas i uverite se zašto smo među najpouzdanijim
+          agencijama za čišćenje u vašem gradu. Vaše zadovoljstvo je naša
+          najveća motivacija!
         </p>
         <div className="">
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">
