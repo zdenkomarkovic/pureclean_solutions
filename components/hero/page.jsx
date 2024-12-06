@@ -17,8 +17,9 @@ const TypingEffect = ({ text, speed = 10 }) => {
   }, [index, text, speed]);
 
   return (
-    <h1 className="w-[55%] lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold transition-opacity duration-700">
+    <h1 className="flex flex-col w-[55%] lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold transition-opacity duration-700">
       {displayedText}
+      <span>Čišćenje prepustite nama, jer smo mi experti za čišćenje</span>
     </h1>
   );
 };
