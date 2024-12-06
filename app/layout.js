@@ -19,6 +19,15 @@ export const metadata = {
   icons: {
     icon: "/pureclean_logo.png",
   },
+  keywords: [
+    "ciscenje",
+    "ciscenje nis",
+    "dubinsko pranje",
+    "dubinsko pranje automobila",
+    "ciscenje kancelarija",
+    "ciscenje poslovnog prostora",
+    "ciscenje zgrada",
+  ],
 };
 
 export default function RootLayout({ children }) {
