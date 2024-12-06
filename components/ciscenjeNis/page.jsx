@@ -45,6 +45,22 @@ const CiscenjeNis = () => {
               </button>
             </a>
           </div>
+          <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
+            <a
+              href="https://www.instagram.com/pureclean_solutions_nis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
+            </a>
+            <a
+              href="https://www.facebook.com/share/14anRHH1Uf/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="text-blue-500" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
