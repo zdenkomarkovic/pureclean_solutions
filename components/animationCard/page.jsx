@@ -42,7 +42,7 @@ const AnimationCard = ({ title, image, bgColor, description }) => {
             hasAnimated ? " opacity-100" : " opacity-10"
           }`}
         >
-          {/* <KraciText text={description} /> */}
+          <KraciText text={description} />
         </p>
         <div
           className={`transform transition-transform duration-1000 ease-in-out ${
