@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
+import KraciText from "../kraciText/page";
 
-const AnimationCard = ({ title, image, bgColor, bgHeight }) => {
+const AnimationCard = ({ title, image, bgColor, description }) => {
   const containerRef = useRef(null);
   const [hasAnimated, setHasAnimated] = useState(false);
 
@@ -36,12 +37,15 @@ const AnimationCard = ({ title, image, bgColor, bgHeight }) => {
         >
           {title}
         </h2>
+        <p className="absolute z-20 bottom-0 p-[10px] text-white">
+          <KraciText text={description} />
+        </p>
         <div
           className={`transform transition-transform duration-1000 ease-in-out ${
             hasAnimated
               ? "translate-y-0 opacity-50"
               : "translate-y-20 opacity-0"
-          } absolute bg-black opacity-50 w-full ${bgHeight} rounded-t-3xl  z-10`}
+          } absolute bg-black opacity-50 w-full h-full rounded-3xl  z-10`}
         ></div>
         <Image
           src={image}

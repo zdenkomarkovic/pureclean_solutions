@@ -17,12 +17,12 @@ const CiscenjeNis = () => {
           <span className="text-primary font-bold">Pure Clean Solutions</span> i
           zakazite profesionalno čišćenje vašeg prostora! Naša agencija za
           čišćenje nudi usluge koje prilagođavamo vašim potrebama, bilo da se
-          radi o stambenim ili poslovnim prostorima. Obraćamo pažnju na detalje
-          i koristimo visokokvalitetna sredstava za čišćenje. Garantujemo
-          savršenu čistoću i osveženje vašeg prostora. Prepustite brigu o
-          higijeni nama, dok vi završavate druge obaveze. Kontaktirajte nas i
-          uverite se zašto smo među najpouzdanijim agencijama za čišćenje. Vaše
-          zadovoljstvo je naša najveća motivacija!
+          radi o stambenim ili poslovnim objektima, kancelarijama ili zgradama.
+          Obraćamo pažnju na detalje i koristimo visokokvalitetna sredstava za
+          čišćenje. Garantujemo savršenu čistoću i osveženje vašeg prostora.
+          Prepustite nama brigu o higijeni nama, dok vi završavate druge
+          obaveze. Kontaktirajte nas i uverite se zašto smo među najpouzdanijim
+          agencijama za čišćenje. Vaše zadovoljstvo je naša najveća motivacija!
         </p>
         <div className="">
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">

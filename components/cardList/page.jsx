@@ -11,6 +11,7 @@ const CardsList = () => {
           <AnimationCard
             image={card.image}
             title={card.title}
+            description={card.description}
             bgColor={index % 2 !== 0 ? "bg-gray-200 lg:bg-inherit " : ""}
             bgHeight={
               card.title === "Čišćenje posle građevinskih radova" ||
