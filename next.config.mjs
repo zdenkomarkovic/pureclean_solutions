@@ -10,15 +10,15 @@ const nextConfig = {
       },
       {
         source: "/generalno-ciscenje-nis", // Još jedan primer
-        destination: "/generalnoCiscenje",
+        destination: "/generalnociscenje",
       },
       {
         source: "/ciscenje-posle-gradjevinskih-radova", // Još jedan primer
-        destination: "/ciscenjePosleGradjevinskihRadova",
+        destination: "/ciscenjeposlegradjevinskihradova",
       },
       {
         source: "/dubinsko-pranje-nis", // Još jedan primer
-        destination: "/dubinskoPranje",
+        destination: "/dubinskopranje",
       },
     ];
   },
@@ -32,7 +32,7 @@ const nextConfig = {
     ];
   },
   env: {
-    SITE_URL: "https://www.purecleansolutions.rs", // Korisno za sitemap generaciju
+    SITE_URL: "https://www.ciscenje-nis.rs", // Korisno za sitemap generaciju
   },
 };
 

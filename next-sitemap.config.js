@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://www.purecleansolutions.rs", // Zameni svojom domenom
+  siteUrl: "https://www.ciscenje-nis.rs", // Zameni svojom domenom
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
