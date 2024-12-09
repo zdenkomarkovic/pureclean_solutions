@@ -18,8 +18,13 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 html {
+  font-size: 100%;
   scroll-behavior: smooth;
 }
 .scrollToTopButton {

@@ -30,9 +30,6 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      fontSize: {
-        base: "16px", // Osnovna veličina
-      },
     },
   },
   plugins: [],
