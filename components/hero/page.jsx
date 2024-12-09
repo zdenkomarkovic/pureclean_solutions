@@ -40,10 +40,10 @@ const Hero = () => {
           </h1> */}
           <TypingEffect text="Pure Clean Solutions" speed={50} />
           <div className="w-[55%] lg:w-[700px] mt-[200px] lg:mt-[300px] ml-auto text-center font-bold">
-            <h3 className="text-[17px] text-white lg:text-[40px] opacity-0 animate-fade-in">
+            <h3 className="text-[20px] text-white lg:text-[40px] opacity-0 animate-fade-in">
               Čišćenje Niš
             </h3>
-            <p className="text-[14px] mt-3 text-white  lg:text-[30px] opacity-0 animate-fade-in2">
+            <p className="text-[17px] mt-3 text-white  lg:text-[30px] opacity-0 animate-fade-in2">
               Specijalizovani za čišćenje poslovnih objekata, kancelarija i
               zgrada. Ali rado prihvatamo sve vrste poslova
             </p>
