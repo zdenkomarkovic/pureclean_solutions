@@ -11,7 +11,7 @@ export const pageData = [
     title: "Generalno čišćenje",
     route: "/generalnociscenje",
     description:
-      "Generalno čišćenje podrazumeva temeljnu brigu o svakom kutku vašeg prostora. Naš tim čisti sve površine, uključujući podove, prozore, kuhinjske elemente, kupatila, i teško dostupna mesta. Detaljno uklanjamo prašinu, mrlje i nečistoće kako bismo osigurali da vaš prostor blista i bude u potpunosti osvežen. Prepustite nam posao, a mi ćemo se pobrinuti za savršenu čistoću!",
+      "Generalno čišćenje podrazumeva temeljnu brigu o svakom kutku vašeg prostora.Kada radimo generalno čišćenje naš tim čisti sve površine, uključujući podove, prozore, kuhinjske elemente, kupatila, i teško dostupna mesta. Detaljno uklanjamo prašinu, mrlje i nečistoće kako bismo osigurali da vaš prostor blista i bude u potpunosti osvežen. Prepustite nam posao, a mi ćemo se pobrinuti za savršenu čistoću!",
   },
   {
     image: "/gradjevinsko.jpg",
