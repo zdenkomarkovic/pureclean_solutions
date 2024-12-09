@@ -39,7 +39,7 @@ const Hero = () => {
             Pure Clean Solutions
           </h1> */}
           <TypingEffect text="Pure Clean Solutions" speed={50} />
-          <div className="w-[55%] lg:w-[700px] mt-[200px] lg:mt-[300px] ml-auto text-center font-bold">
+          <div className="w-[65%] lg:w-[700px] mt-[200px] lg:mt-[300px] ml-auto text-center font-bold">
             <h3 className="text-[20px] text-white lg:text-[40px] opacity-0 animate-fade-in">
               Čišćenje Niš
             </h3>
