@@ -62,21 +62,6 @@ export const getPageData = (title) => {
   return pageData.find((page) => page.title === title);
 };
 
-// /** @type {import('next-sitemap').IConfig} */
-// module.exports = {
-//   siteUrl: "https://www.ciscenje-nis.rs", // Zameni svojom domenom
-//   generateRobotsTxt: true,
-//   robotsTxtOptions: {
-//     policies: [
-//       {
-//         userAgent: "*",
-//         allow: "/",
-//       },
-//     ],
-//   },
-// };
-// next-sitemap.config.js
-
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
 //   reactStrictMode: true, // Preporučuje se za otkrivanje problema
