@@ -9,7 +9,7 @@ import CiscenjeNis from "../../../components/ciscenjeNis/page";
 const Home = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Ciscenje - Najbolje usluge u gradu</title>
         <meta
           name="description"
@@ -30,7 +30,7 @@ const Home = () => {
         />
         <meta property="og:image" content="/ciscenje.jpg" />
         <meta property="og:url" content="https://www.purecleansolutions.rs" />
-      </Head>
+      </Head> */}
       <div>
         <Hero />
         <ButtonToTop />

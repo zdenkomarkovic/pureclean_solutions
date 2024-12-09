@@ -37,13 +37,9 @@ const AnimationCard = ({ title, image, bgColor, description }) => {
         >
           {title}
         </h2>
-        <p
-          className={`absolute z-20 bottom-0 p-[10px] text-[20px] text-white transform transition-all duration-1000 ease-in-out ${
-            hasAnimated ? " opacity-100" : " opacity-10"
-          }`}
-        >
-          <KraciText text={description} />
-        </p>
+
+        <KraciText hasAnimated={hasAnimated} text={description} />
+
         <div
           className={`transform transition-transform duration-1000 ease-in-out ${
             hasAnimated
