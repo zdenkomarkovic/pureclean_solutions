@@ -1,6 +1,6 @@
 export const pageData = [
   {
-    image: "/ciscenje.jpg",
+    image: "/ciscenje.webp",
     title: "Redovno čišćenje",
     route: "/redovnociscenje",
     description:
