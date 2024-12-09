@@ -18,10 +18,10 @@ const CiscenjeNis = () => {
           zakazite profesionalno čišćenje vašeg prostora! Naša agencija za
           čišćenje nudi usluge koje prilagođavamo vašim potrebama, bilo da se
           radi o stambenim ili poslovnim objektima, kancelarijama ili zgradama.
-          Obraćamo pažnju na detalje i koristimo visokokvalitetna sredstava za
+          Obraćamo pažnju na detalje i koristimo visokokvalitetna sredstva za
           čišćenje. Garantujemo savršenu čistoću i osveženje vašeg prostora.
-          Prepustite nama brigu o higijeni nama, dok vi završavate druge
-          obaveze. Kontaktirajte nas i uverite se zašto smo među najpouzdanijim
+          Prepustite nama brigu o higijeni, dok vi završavate druge obaveze.
+          Kontaktirajte nas i uverite se zašto smo među najpouzdanijim
           agencijama za čišćenje. Vaše zadovoljstvo je naša najveća motivacija!
         </p>
         <div className="">
