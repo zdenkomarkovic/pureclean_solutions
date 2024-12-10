@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ciscenje-nis.rs
+
+# Sitemaps
+Sitemap: https://www.ciscenje-nis.rs/sitemap.xml
