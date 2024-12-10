@@ -8,8 +8,12 @@ export const metadata = {
     "Generalno ciscenje je mnogo vise od redovnog ciscenja. Tada se ciste sve povrsine: podovi, prozori, kuhinjski elementi i tesko dostupna mesta.",
   icons: {
     icon: "/pureclean_logo.png",
+    apple: "/pureclean_logo.png",
   },
   keywords: ["ciscenje", "ciscenje nis"],
+  alternates: {
+    canonical: "https://www.ciscenje-nis.rs/generalnociscenje",
+  },
 };
 
 const GeneralnoCiscenje = () => {

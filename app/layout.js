@@ -19,6 +19,7 @@ export const metadata = {
     "Ciscenje prepustite nama. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor.",
   icons: {
     icon: "/pureclean_logo.png",
+    apple: "/apple-touch-icon.png",
   },
   keywords: [
     "ciscenje",
@@ -29,6 +30,9 @@ export const metadata = {
     "ciscenje poslovnog prostora",
     "ciscenje zgrada",
   ],
+  alternates: {
+    canonical: "https://www.ciscenje-nis.rs/",
+  },
 };
 
 export default function RootLayout({ children }) {

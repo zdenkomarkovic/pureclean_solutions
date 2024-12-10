@@ -10,13 +10,13 @@ const Card = ({ title, image, description }) => {
       <div className=" lg:flex gap-20 items-center">
         <Image
           src={image}
-          width={750}
+          width={600}
           height={600}
           alt="ciscenje"
           className="rounded-3xl"
         />
         <div className="lg:text-left py-[30px] lg:py-0">
-          <p className="text-[18px] lg:text-[28px]">{description}</p>
+          <p className="text-[18px] lg:text-[20px]">{description}</p>
         </div>
       </div>
     </div>

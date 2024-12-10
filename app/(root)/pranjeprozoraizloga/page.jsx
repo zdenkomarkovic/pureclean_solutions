@@ -8,8 +8,12 @@ export const metadata = {
     "Pure Clean Solutions obavlja uslugu pranja prozora i izloga. Cisti i sjajni izlozi i prozori ostavljaju snazan utisak i ulepsavaju svaki prostor.",
   icons: {
     icon: "/pureclean_logo.png",
+    apple: "/pureclean_logo.png",
   },
   keywords: ["ciscenje", "ciscenje nis", "pranje prozora", "pranje izloga"],
+  alternates: {
+    canonical: "https://www.ciscenje-nis.rs/pranjeprozoraizloga",
+  },
 };
 
 const pranjeProzoraIzloga = () => {

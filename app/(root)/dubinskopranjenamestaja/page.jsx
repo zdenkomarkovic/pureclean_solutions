@@ -8,8 +8,12 @@ export const metadata = {
     "Pure Clean Solutions nudi profesionalno dubinsko pranje namestaja u Nisu. Ocistite i osvezite vas namestaj uz nase efikasne i bezbedne metode ciscenja!",
   icons: {
     icon: "/pureclean_logo.png",
+    apple: "/pureclean_logo.png",
   },
   keywords: ["dubinsko pranje", "dubinsko pranje namestaja"],
+  alternates: {
+    canonical: "https://www.ciscenje-nis.rs/dubinskopranjenamestaja",
+  },
 };
 
 const DubinskoPranjeNamestaja = () => {

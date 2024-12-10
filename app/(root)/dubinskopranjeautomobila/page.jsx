@@ -8,8 +8,12 @@ export const metadata = {
     "Pure Clean Solutions obavlja usluge dubinskog pranja automobila. To obuhvata pranje sedista tepiha i unutrasnjih povrsina, uklanjanje fleka i neprijatnih mirisa!",
   icons: {
     icon: "/pureclean_logo.png",
+    apple: "/pureclean_logo.png",
   },
   keywords: ["dubinsko pranje", "dubinsko pranje automobila"],
+  alternates: {
+    canonical: "https://www.ciscenje-nis.rs/dubinskopranjeautomobila",
+  },
 };
 
 const DubinskoPranjeAutomobila = () => {
