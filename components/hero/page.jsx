@@ -34,7 +34,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/hero.jpg')", zIndex: -1 }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10">
-        <div className="relative z-20 container mx-auto px-2 lg:px-10 pt-20 lg:pt-40 ">
+        <div className="relative z-20 container mx-auto px-2 lg:px-10 pt-20 lg:pt-30 ">
           {/* <h1 className="w-[55%] lg:w-[100%] ml-auto text-[38px] lg:text-[80px] text-left lg:text-right text-primary font-bold">
             Pure Clean Solutions
           </h1> */}
