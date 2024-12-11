@@ -35,14 +35,14 @@ const CiscenjeNis = () => {
             </a>
             <a href="viber://contact?number=%2B381631210359">
               <button className="px-8 py-[7px] flex gap-5 items-center border-b-[1px] mx-auto  border-primary text-white text-[20px]">
-                Pozovite{" "}
+                Viber{" "}
                 <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
                 +381 63 1210359
               </button>
             </a>
             <a href="https://wa.me/381631210359">
               <button className="px-8 py-[7px] flex gap-5 items-center border-b-[1px] mx-auto border-primary text-white text-[20px]">
-                Pozovite{" "}
+                WhatsApp{" "}
                 <FaWhatsappSquare className="text-[30px] lg:text-[35px] rounded-2xl text-green-700 " />{" "}
                 +381 63 1210359
               </button>
