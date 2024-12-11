@@ -48,7 +48,7 @@ const CiscenjeNis = () => {
               </button>
             </a>
           </div>
-          {/* <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
+          <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
             <a
               href="https://www.instagram.com/pureclean_solutions_nis"
               target="_blank"
@@ -63,7 +63,7 @@ const CiscenjeNis = () => {
             >
               <FaFacebook className="text-blue-500" />
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
