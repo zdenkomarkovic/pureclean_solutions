@@ -19,6 +19,7 @@ const Kontakt = () => {
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">
             <a href="tel:+381631210359">
               <button className="px-8  py-[7px] flex gap-5 items-center border-b-[1px] mx-auto  border-primary text-white text-[20px]">
+                Uvek tu za vas{" "}
                 <FaPhone className="text-[25px] lg:text-[35px] text-primary" />{" "}
                 +381 63 1210359
               </button>
@@ -36,19 +37,23 @@ const Kontakt = () => {
               </button>
             </a>
           </div>
-          <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
+          <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center text-white items-center text-center">
             <a
               href="https://www.instagram.com/pureclean_solutions_nis"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3"
             >
+              <span className="text-[20px]">Nadjite nas na </span>
               <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
             </a>
             <a
               href="https://www.facebook.com/share/14anRHH1Uf/"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3"
             >
+              <span className="text-[20px]"> Posetite nas </span>
               <FaFacebook className="text-blue-500" />
             </a>
           </div>
