@@ -66,8 +66,7 @@ const CiscenjeNis = () => {
           vašu kuću, možete računati na nas da ćemo obaviti posao sa pažnjom,
           efikasnošću i visokim standardima.{" "}
           <span className="text-primary font-bold">Pure Clean Solutions</span>{" "}
-          je vaša pouzdana agencija za čišćenje u Nišu koja pruža vrhunske
-          usluge u svim oblastima čišćenja.
+          čišćenje u Nišu prepustite nama, jer smo mi experti u svom poslu.
         </p>
 
         <div className="">
