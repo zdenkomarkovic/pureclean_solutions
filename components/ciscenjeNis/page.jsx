@@ -8,7 +8,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 const CiscenjeNis = () => {
   return (
     <div className=" bg-black ">
-      <div className=" container lg:px-[50px] pb-[50px] lg:pb-[120px] text-center mx-auto">
+      <div className=" container px-[8px] lg:px-[50px] pb-[50px] lg:pb-[120px] text-center mx-auto">
         <h2 className="text-[37px] py-[25px] lg:text-[78px] lg:py-[60px] text-center  text-primary">
           Pure Clean Solutions Čišćenje Niš
         </h2>
