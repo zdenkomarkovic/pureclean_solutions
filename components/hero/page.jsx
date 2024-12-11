@@ -44,8 +44,9 @@ const Hero = () => {
               Čišćenje Niš
             </h3>
             <p className="text-[17px] mt-3 text-white  lg:text-[30px] opacity-0 animate-fade-in2">
-              Specijalizovani za čišćenje poslovnih objekata, kancelarija i
-              zgrada. Ali rado prihvatamo sve vrste poslova
+              Pure Clean Solutions - specijalizovani za čišćenje poslovnih
+              objekata, kancelarija i zgrada. Ali rado prihvatamo sve vrste
+              poslova
             </p>
           </div>
         </div>
