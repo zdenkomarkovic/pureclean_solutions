@@ -8,11 +8,11 @@ import { FaWhatsappSquare } from "react-icons/fa";
 const CiscenjeNis = () => {
   return (
     <div className=" bg-black ">
-      <div className=" container px-[8px] lg:px-[50px] pb-[50px] lg:pb-[120px] text-center mx-auto">
+      <div className=" container px-[8px] lg:px-[50px] pb-[50px]  text-left mx-auto">
         <h2 className="text-[37px] py-[25px] lg:text-[78px] lg:py-[60px] text-center  text-primary">
           Pure Clean Solutions Čišćenje Niš
         </h2>
-        <p className="text-[20px]  text-white  lg:text-[30px]">
+        <p className="text-[20px]  text-white  lg:text-[30px] py-[10px]">
           Pozovite{" "}
           <span className="text-primary font-bold">Pure Clean Solutions</span> i
           zakazite profesionalno čišćenje vašeg prostora. Naša agencija za
@@ -24,7 +24,7 @@ const CiscenjeNis = () => {
           stručnjaka koristi najsavremenija sredstva i opremu, a svaki zadatak
           obavljamo sa pažnjom na detalje i potpunu posvećenost.
         </p>
-        <p className="text-[20px] text-white  lg:text-[30px]">
+        <p className="text-[20px] text-white  lg:text-[30px] py-[10px]">
           Naša ponuda uključuje različite usluge čišćenja, uključujući
           svakodnevno, dubinsko čišćenje, čišćenje nakon renoviranja, kao i
           specijalizovane usluge kao što su čišćenje tepiha, prozora i
@@ -33,7 +33,7 @@ const CiscenjeNis = () => {
           ekološki prihvatljive i sigurne proizvode koji garantuju visok nivo
           efikasnosti i zaštitu vašeg zdravlja i imovine.
         </p>
-        <p className="text-[20px] text-white  lg:text-[30px]">
+        <p className="text-[20px] text-white  lg:text-[30px] py-[10px]">
           Naša agencija je poznata po tome što se brine o svim aspektima
           čišćenja, od redovnog održavanja do dubinskog čišćenja prostora koji
           nisu često u upotrebi. Ako vam je potrebna hitna usluga ili želite
@@ -41,7 +41,7 @@ const CiscenjeNis = () => {
           biti obavljen brzo i efikasno. Sve naše usluge su fleksibilne, tako da
           možemo raditi u skladu sa vašim rasporedom i specifičnim potrebama.
         </p>
-        <p className="text-[20px]  text-white  lg:text-[30px]">
+        <p className="text-[20px]  text-white  lg:text-[30px] py-[10px]">
           Kada izaberete{" "}
           <span className="text-primary font-bold">Pure Clean Solutions</span>,
           birate pouzdanu kompaniju koja ne pravi kompromis kada je u pitanju
@@ -51,7 +51,7 @@ const CiscenjeNis = () => {
           očistimo bude besprekorno čist i osvežen. Naš cilj je da vaš prostor
           bude zdrav, siguran i prijatan za boravak ili rad.
         </p>
-        <p className="text-[20px] text-white  lg:text-[30px]">
+        <p className="text-[20px] text-white  lg:text-[30px] py-[10px]">
           Kontaktirajte nas danas i uverite se zašto su mnogi naši klijenti
           odabrali nas kao svoju primarnu agenciju za čišćenje. Sa{" "}
           <span className="text-primary font-bold">Pure Clean Solutions</span>,
@@ -61,14 +61,14 @@ const CiscenjeNis = () => {
           reše čak i najzahtevnije zadatke čišćenja, tako da možete biti sigurni
           da ćemo se pobrinuti za svaki detalj.
         </p>
-        <p className="text-[20px] mb-20 text-white  lg:text-[30px]">
+        <p className="text-[20px] mb-20 text-white  lg:text-[30px] py-[10px]">
           Bez obzira na to da li vam je potrebna usluga za poslovne prostore ili
           vašu kuću, možete računati na nas da ćemo obaviti posao sa pažnjom,
           efikasnošću i visokim standardima.{" "}
           <span className="text-primary font-bold">Pure Clean Solutions</span>{" "}
           čišćenje u Nišu prepustite nama, jer smo mi experti u svom poslu.
         </p>
-
+        {/* 
         <div className="">
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">
             <a href="tel:+381631210359">
@@ -109,7 +109,7 @@ const CiscenjeNis = () => {
               <FaFacebook className="text-blue-500" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
