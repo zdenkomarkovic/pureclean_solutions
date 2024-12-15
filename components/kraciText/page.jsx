@@ -1,7 +1,7 @@
 import React from "react";
 
 const KraciText = ({ text, hasAnimated }) => {
-  const skracenText = text.substring(0, 120) + "...";
+  const skracenText = text[0].substring(0, 120) + "...";
   console.log(text);
   return (
     <p
