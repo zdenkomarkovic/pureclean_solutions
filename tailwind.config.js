@@ -18,8 +18,8 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in": "fade-in 1.7s ease-in forwards 1.7s",
-        "fade-in2": "fade-in 2s ease-in forwards 2s",
+        "fade-in": "fade-in 1s ease-in forwards 1s",
+        "fade-in2": "fade-in 1.3s ease-in forwards 1.3s",
         colorChange: "colorChange 2s ease-in-out",
       },
       transitionDuration: {
@@ -29,6 +29,9 @@ module.exports = {
         primary: "#ff7000",
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      textIndent: {
+        "2ch": "2ch",
       },
     },
   },

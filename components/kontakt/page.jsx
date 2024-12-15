@@ -19,7 +19,6 @@ const Kontakt = () => {
           <div className="flex flex-col lg:flex-row mx-auto justify-center gap-3 lg:gap-10 items-center">
             <a href="tel:+381631210359">
               <button className="px-2  py-[7px] flex gap-2 items-center border-b-[1px] mx-auto  border-primary text-white text-[18px]">
-                Uvek tu za vas{" "}
                 <FaPhone className="text-[20px] lg:text-[35px] text-primary" />{" "}
                 +381 63 1210359
               </button>
@@ -44,7 +43,6 @@ const Kontakt = () => {
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3"
             >
-              <span className="text-[18px]">Nadjite nas na </span>
               <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
             </a>
             <a
@@ -53,7 +51,6 @@ const Kontakt = () => {
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3"
             >
-              <span className="text-[18px]"> Posetite nas </span>
               <FaFacebook className="text-blue-500" />
             </a>
           </div>

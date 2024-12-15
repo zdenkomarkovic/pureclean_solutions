@@ -5,7 +5,7 @@ import Link from "next/link.js";
 
 const CardsList = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center bg-no">
+    <div className="flex flex-wrap justify-center items-center bg-no py-[50px]">
       {pageData.map((card, index) => (
         <Link key={index} href={card.route}>
           <AnimationCard

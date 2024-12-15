@@ -31,7 +31,7 @@ const AnimationCard = ({ title, image, bgColor, description }) => {
     <div className={`px-2 py-4   mx-auto  text-center lg:w-[490px] ${bgColor}`}>
       <div ref={containerRef} className="relative ">
         <h2
-          className={` z-20 absolute left-0 right-0 text-[34px] lg:text-[40px] py-[10px] font-bold lg:py-[20px] text-primary transform transition-all duration-1000 ease-in-out ${
+          className={` z-20 absolute left-0 right-0 text-[30px] lg:text-[40px] py-[20px] font-bold lg:py-[20px] text-primary transform transition-all duration-1000 ease-in-out ${
             hasAnimated ? "scale-100 opacity-100" : "scale-50 opacity-10"
           } `}
         >
