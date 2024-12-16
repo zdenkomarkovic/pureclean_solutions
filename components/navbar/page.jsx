@@ -48,7 +48,7 @@ const Navbar = () => {
             </button>
           </a>
           <Link
-            href="/#kontakt"
+            href="#kontakt"
             className="pr-5"
             onClick={() => setDropdownMenu(true)}
           >
