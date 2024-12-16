@@ -93,7 +93,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex gap-10 items-center font-bold">
-          <Link href="/#kontakt">Kontakt</Link>
+          <Link href="#kontakt">Kontakt</Link>
         </div>
       </nav>
     </header>

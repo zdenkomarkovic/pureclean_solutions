@@ -32,7 +32,6 @@ const Home = () => {
         <CiscenjeNis />
         <CardsList />
         <VideoCard />
-        <Kontakt />
       </div>
     </>
   );

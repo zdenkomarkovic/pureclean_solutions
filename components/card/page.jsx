@@ -15,7 +15,7 @@ const Card = ({ title, image, description }) => {
           alt="ciscenje"
           className="rounded-3xl py-[15px] lg:py-0"
         />
-        <div className="lg:text-left ">
+        <div className="text-left ">
           {description.map((text, i) => {
             if (i < 2)
               return (
@@ -35,7 +35,7 @@ const Card = ({ title, image, description }) => {
           return (
             <p
               key={i}
-              className="text-[18px] lg:text-[20px] indent-2ch py-[15px]"
+              className="text-[18px] lg:text-[20px] indent-2ch py-[15px] text-left"
             >
               {text}
             </p>
