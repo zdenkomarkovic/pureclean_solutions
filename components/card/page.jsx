@@ -13,7 +13,7 @@ const Card = ({ title, image, description }) => {
           width={700}
           height={600}
           alt="ciscenje"
-          className="rounded-3xl py-[15px] lg:py-0"
+          className="rounded-3xl py-[15px] lg:py-0  "
         />
         <div className="text-left ">
           {description.map((text, i) => {
