@@ -19,7 +19,7 @@ export const metadata = {
     "Ciscenje prepustite nama. Dok vi odmarate ili radite nesto drugo, mi cemo vam srediti stan, kancelariju, poslovni prostor.",
   icons: {
     icon: "/pureclean_logo.png",
-    apple: "/apple-touch-icon.png",
+    apple: "/pureclean_logo.png",
   },
   keywords: [
     "ciscenje",
